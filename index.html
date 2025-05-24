@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Café Gallery</h1>
+        <div id="filterButtons">
+            <button id="homeButton">Home</button>
+            <button id="filterYork">York</button>
+            <button id="filterDurham">Durham</button>
+        </div>
+        <button id="toggleFormButton">Add Café</button>
+ 
+        
+    <button id="openFormBtn">Give Feedback</button>
+
+
+
+<button id="seeFeedbackBtn">SEE FEEDBACK</button>
+
+
+<div id="feedbackPopup" class="popup hidden">
+    <button onclick="closePopup('feedbackPopup')">Close</button>
+    <div id="feedbackList"></div>
+</div>
+
+
+    <div id="feedbackForm" class="form-popup" style="display:none;">
+        <form id="feedbackFormContent">
+            <h2>Feedback Form</h2>
+            <label for="name">Cafe Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea><br><br>
+            <button type="submit">Submit Feedback</button>
+            <button type="button" id="closeFormBtn">Close</button>
+        </form>
+    </div> 
+    </header>
+
+
+    <div id="searchContainer">
+        <input type="text" id="searchBox" placeholder="Search for cafes...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <div id="cafeGrid"></div>
+
+    
+    <div id="addCafeModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Add a New Cafe</h2>
+            <form id="cafeForm">
+                <label for="cafeName">Cafe Name:</label>
+                <input type="text" id="cafeName"><br>
+                <label for="cafeLocation">Location:</label>
+                <input type="text" id="cafeLocation"><br>
+                <label for="cafeCoffeeTypes">Coffee Types:</label>
+                <input type="text" id="cafeCoffeeTypes"><br>
+                <label for="cafeRating">Rating (1-5):</label>
+                <input type="number" id="cafeRating" min="1" max="5"><br>
+                <label for="cafeComments">Comments</label>
+                <textarea id="cafeComments"></textarea><br>
+                <button type="submit">Add Cafe</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="cafeDetailsModal" class="modal">
+        <div class="modal-content">
+            <span id="closeDetails" class="close">&times;</span>
+            <h2 id="detailsTitle"></h2>
+            <p id="detailsLocation"></p>
+            <p id="detailsCoffeeTypes"></p>
+            <p id="detailsRating"></p>
+            <p id="detailsComments"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+

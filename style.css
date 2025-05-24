@@ -1,0 +1,344 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1e1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #6f4f28; 
+    color: white;
+    padding: 15px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+header .button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1; 
+}
+
+button {
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #8c4b27; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    border: 2px solid transparent;
+    font-size: 16px;
+    width: auto; 
+    min-width: 150px; 
+}
+
+button:hover {
+    background-color: #d29e62;
+    transform: scale(1.05);
+    border-color: #d29e62; 
+}
+
+#searchContainer {
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+#searchBox {
+    width: 40%; 
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #8c4b27; 
+    background-color: #fff5e1; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#searchButton {
+    padding: 12px 18px;
+    background-color: #d29e62;
+    color: white;
+    border: 2px solid #8c4b27;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchButton:hover {
+    background-color: #8c4b27;
+}
+
+#cafeGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.cafe-box {
+    background: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom right, #f5e1c8, #d29e62); 
+    border: 2px solid #8c4b27;
+}
+
+.cafe-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.cafe-info {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px; 
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#detailsTitle {
+    font-size: 32px; 
+    font-weight: bold;
+    color: #6f4f28;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    -webkit-text-stroke: 2px #8c4b27; 
+}
+
+#detailsLocation, #detailsCoffeeTypes, #detailsRating, #detailsComments {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #6f4f28;
+    font-weight: normal; 
+}
+
+#detailsWebsite {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#detailsWebsite:hover {
+    text-decoration: underline;
+}
+
+#filterButtons {
+    display: flex;
+    gap: 15px;
+}
+
+#filterButtons button {
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #d29e62;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    font-size: 16px;
+}
+
+#filterButtons button:hover {
+    background-color: #8c4b27;
+    transform: scale(1.05);
+}
+
+#addCafeSection, #cafeDetailsSection {
+    width: 90%;
+}
+
+#searchContainer {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#searchBox, #searchButton {
+    width: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    font-size: 24px;
+    cursor: pointer;
+    color: #8c4b27;
+}
+
+.close:hover {
+    color: #d29e62;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 350px;
+    z-index: 999;
+    background-image: linear-gradient(to bottom right, #f5e1c8, #d29e62);
+    border: 2px solid #8c4b27;
+}
+
+
+#addCafeForm {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    z-index: 999;
+    background-image: linear-gradient(to bottom right, #f5e1c8, #d29e62); 
+    border: 2px solid #8c4b27;
+}
+
+#addCafeForm input,
+#addCafeForm select,
+#addCafeForm textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #8c4b27;
+    background-color: #fff5e1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#addCafeForm button {
+    padding: 12px 18px;
+    background-color: #8c4b27;
+    color: white;
+    border: 2px solid #8c4b27;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+#addCafeForm button:hover {
+    background-color: #d29e62;
+}
+
+#closeFormBtn {
+    background-color: #f44336;
+    width: auto;
+    padding: 10px 18px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#closeFormBtn:hover {
+    background-color: #d32f2f;
+}
+
+#homeButton {
+    background-color: #6f4f28; 
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    border: none;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+#homeButton:hover {
+    background-color: #d29e62; 
+    transform: scale(1.05);
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popup.hidden {
+    display: none;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+#feedbackList {
+    margin-top: 20px;
+}
+
+.feedback-box {
+    background-color: #7a4425;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

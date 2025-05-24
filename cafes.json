@@ -1,0 +1,314 @@
+[
+  {
+    "id": "1",
+    "name": "Rise Brunch Cafe",
+    "location": "Fossgate",
+    "coffeetypes": "Espresso, Latte, Cappuccino",
+    "reviews": "4.2/5",
+    "comments": "Rise Brunch Cafe is the perfect spot for coffee lovers and brunch enthusiasts alike. With a warm and inviting atmosphere, this cafe serves up expertly crafted espressos, lattes, and cappuccinos that are sure to impress. The food is equally delightful, featuring a range of freshly prepared brunch options that pair beautifully with their specialty coffees. Whether you're here for a quick caffeine fix or a leisurely meal, Rise Brunch Cafe never disappoints."
+  },
+  {
+    "id": "2",
+    "name": "Flat White Kitchen",
+    "location": "Durham",
+    "coffeetypes": "Espresso, Mocha, Flat White",
+    "reviews": "4.7/5",
+    "comments": "Flat White Kitchen is a must-visit for coffee aficionados, offering an exceptional selection of handcrafted beverages, from rich espressos to smooth flat whites. The brunch menu is equally impressive, featuring fresh and locally sourced ingredients that elevate each dish. The ambiance is warm and welcoming, making it an ideal place to catch up with friends or unwind with a book while enjoying some of the best coffee Durham has to offer."
+  },
+  {
+    "id": "3",
+    "name": "Robinsons",
+    "location": "Bishopthorpe Road",
+    "coffeetypes": "All coffees, cakes and sandwiches",
+    "reviews": "2.7/5",
+    "comments": "Robinsons offers a cozy and relaxed setting, perfect for those who appreciate a good cup of coffee alongside delicious homemade cakes and sandwiches. The menu features a variety of options catering to different tastes, and their expertly brewed coffee ensures a consistently enjoyable experience. Whether you're looking for a morning pick-me-up or a casual lunch spot, Robinsons is a great choice."
+  },
+  {
+    "id": "4",
+    "name": "Brew & Brownie",
+    "location": "Museum Street, York",
+    "coffeetypes": "Flat White, Americano, Matcha Latte",
+    "reviews": "4.5/5",
+    "comments": "Brew & Brownie is a charming cafe that specializes in high-quality coffee and delightful brunch dishes. The cafe offers an extensive selection of beverages, including rich americanos, creamy flat whites, and unique matcha lattes. The food menu boasts homemade treats and delicious meals that perfectly complement their drinks. With a rustic yet modern interior, Brew & Brownie provides a warm and inviting space to relax and enjoy great coffee."
+  },
+  {
+    "id": "5",
+    "name": "The Riverview Kitchen",
+    "location": "Durham",
+    "coffeetypes": "Cappuccino, Mocha, Hot Chocolate",
+    "reviews": "4.6/5",
+    "comments": "Located by the riverside, The Riverview Kitchen is an absolute gem for those who enjoy a tranquil setting with their coffee. The cafe offers an impressive selection of drinks, from rich cappuccinos to indulgent mochas and velvety hot chocolates. The scenic views, combined with a cozy and welcoming ambiance, make this a perfect spot to unwind and enjoy a relaxing cup of coffee while admiring the beautiful surroundings."
+  },
+  {
+    "id": "6",
+    "name": "The Perky Peacock",
+    "location": "Lendal Bridge, York",
+    "coffeetypes": "Espresso, Iced Latte, Chai Latte",
+    "reviews": "4.3/5",
+    "comments": "Nestled in a historic tower near Lendal Bridge, The Perky Peacock is a unique and cozy coffee shop that serves some of the best coffee in York. From strong espressos to refreshing iced lattes and spiced chai lattes, there’s something for every coffee lover. Their selection of pastries and light bites is just as delightful, making this a wonderful place to stop for a break while exploring the city."
+  },
+  {
+    "id": "7",
+    "name": "Flat White Cafe",
+    "location": "Durham",
+    "coffeetypes": "Flat White, Cortado, Filter Coffee",
+    "reviews": "4.8/5",
+    "comments": "Flat White Cafe is an essential destination for coffee lovers in Durham, known for its expertly brewed flat whites and rich cortados. The carefully curated menu offers a variety of specialty coffees that cater to those who appreciate high-quality brews. The relaxed, rustic interior makes it an inviting place to enjoy a quiet moment or catch up with friends over a delicious cup of coffee."
+  },
+  {
+    "id": "8",
+    "name": "Gatehouse Coffee",
+    "location": "Walmgate Bar, York",
+    "coffeetypes": "Espresso, Long Black, Cold Brew",
+    "reviews": "4.4/5",
+    "comments": "Gatehouse Coffee is a hidden gem located in a historic medieval tower, providing a unique and charming atmosphere for coffee lovers. Their expertly brewed espresso, rich long black, and smooth cold brew make for an exceptional coffee experience. The cozy ambiance, combined with its historical significance, makes this cafe a must-visit for anyone exploring York."
+  },
+  {
+    "id": "9",
+    "name": "Chapters Tearoom",
+    "location": "Durham",
+    "coffeetypes": "Espresso, Herbal Teas, Chai Latte",
+    "reviews": "4.3/5",
+    "comments": "Chapters Tearoom is the perfect place for those who appreciate a mix of traditional teas and specialty coffees. Offering a variety of drinks, including rich espressos, aromatic herbal teas, and soothing chai lattes, this charming tearoom provides a cozy and welcoming atmosphere. Whether you're in the mood for a quiet afternoon tea or a quick coffee break, Chapters Tearoom is a delightful choice."
+  },
+  {
+    "id": "10",
+    "name": "Spring Espresso",
+    "location": "Fossgate, York",
+    "coffeetypes": "Espresso, Pour Over, Cappuccino",
+    "reviews": "4.7/5",
+    "comments": "Spring Espresso is widely regarded as one of the best specialty coffee spots in York, offering expertly brewed espressos, smooth pour-over coffees, and creamy cappuccinos. The baristas are passionate about coffee, ensuring every cup is crafted to perfection. The minimalist yet inviting interior makes it a great place to relax and enjoy an outstanding coffee experience."
+  },
+  {
+    "id": "11",
+    "name": "Leonard’s Coffee House",
+    "location": "Durham",
+    "coffeetypes": "Americano, Latte, Mocha",
+    "reviews": "4.5/5",
+    "comments": "Leonard’s Coffee House is a charming cafe that prides itself on serving high-quality coffee with a friendly smile. Whether you’re in the mood for a classic Americano, a creamy latte, or a rich and indulgent mocha, this cafe has something for everyone. The welcoming atmosphere, combined with excellent customer service, makes it a favorite among both locals and visitors."
+  },
+  {
+    "id": "12",
+    "name": "Bean & Bud",
+    "location": "Harrogate",
+    "coffeetypes": "Espresso, Flat White, V60",
+    "reviews": "4.6/5",
+    "comments": "Bean & Bud is a haven for coffee connoisseurs, offering expertly brewed specialty coffee using the finest beans. Whether you prefer a strong espresso, a velvety flat white, or a carefully crafted V60 pour-over, this cafe delivers on all fronts. The friendly and knowledgeable staff ensure every cup is brewed to perfection, making it a must-visit in Harrogate."
+  },
+  {
+    "id": "13",
+    "name": "Coppergate Coffee",
+    "location": "York",
+    "coffeetypes": "Latte, Espresso, Iced Coffee",
+    "reviews": "4.2/5",
+    "comments": "Coppergate Coffee is a delightful little spot in the heart of York, offering a range of expertly prepared coffees. From rich and smooth lattes to bold espressos and refreshing iced coffees, there’s something to suit every preference. The cozy atmosphere and friendly service make it a perfect place to relax while exploring the city."
+  },
+  {
+    "id": "14",
+    "name": "Clifton Coffee Roasters",
+    "location": "Durham",
+    "coffeetypes": "Flat White, Filter Coffee, Americano",
+    "reviews": "4.5/5",
+    "comments": "Clifton Coffee Roasters is a paradise for coffee enthusiasts, focusing on expertly roasted beans and perfectly brewed coffee. Whether you’re after a rich flat white, a smooth filter coffee, or a bold Americano, every cup is crafted with care. The relaxed atmosphere and emphasis on quality make this cafe a go-to spot for coffee lovers in Durham."
+  },
+  {
+    "id": "15",
+    "name": "Little Bean Coffee",
+    "location": "York",
+    "coffeetypes": "Espresso, Mocha, Cold Brew",
+    "reviews": "4.4/5",
+    "comments": "Little Bean Coffee is known for its exceptional espresso, indulgent mochas, and smooth cold brew. The baristas take pride in their craft, ensuring that every drink is perfectly balanced and full of flavor. The friendly service and cozy ambiance make this cafe a great place to stop for a high-quality coffee experience."
+  },
+  {
+    "id": "16",
+    "name": "The Curious Cup",
+    "location": "Durham",
+    "coffeetypes": "Cappuccino, Matcha Latte, Herbal Tea",
+    "reviews": "4.3/5",
+    "comments": "The Curious Cup is a delightful independent coffee shop with a passion for unique and flavorful beverages. Their cappuccinos are rich and frothy, the matcha lattes are smooth and earthy, and their herbal tea selection is perfect for a relaxing break. With a charming atmosphere and welcoming staff, this cafe is a wonderful place to unwind."
+  },
+  {
+    "id": "17",
+    "name": "Steam & Grind",
+    "location": "York",
+    "coffeetypes": "Espresso, Latte, Affogato",
+    "reviews": "4.5/5",
+    "comments": "Steam & Grind is a cozy and stylish cafe that takes its coffee seriously. The espresso is strong and well-balanced, the lattes are creamy and rich, and the affogato is a delightful treat for those who enjoy a combination of coffee and dessert. Whether you're stopping in for a quick caffeine boost or a leisurely drink, Steam & Grind delivers an excellent experience."
+  },
+  {
+    "id": "18",
+    "name": "North Star Coffee",
+    "location": "Leeds",
+    "coffeetypes": "Filter Coffee, Espresso, Nitro Cold Brew",
+    "reviews": "4.7/5",
+    "comments": "North Star Coffee is a highly respected coffee roastery known for its dedication to high-quality beans and expertly brewed coffee. Their filter coffee is smooth and flavorful, the espresso is bold and well-balanced, and the nitro cold brew offers a refreshing twist on a classic favorite. If you're serious about coffee, this is the place to be."
+  },
+  {
+    "id": "19",
+    "name": "Blossom Coffee",
+    "location": "York",
+    "coffeetypes": "Cortado, Iced Mocha, Chai Latte",
+    "reviews": "4.3/5",
+    "comments": "Blossom Coffee is a beautifully designed cafe that offers a fantastic selection of drinks, including rich cortados, indulgent iced mochas, and comforting chai lattes. The stylish interior and relaxing ambiance make it a lovely place to sit back and enjoy a high-quality coffee experience."
+  },
+  {
+    "id": "20",
+    "name": "Dark Horse Espresso",
+    "location": "Durham",
+    "coffeetypes": "Espresso, Flat White, Macchiato",
+    "reviews": "4.6/5",
+    "comments": "Dark Horse Espresso is a must-visit for serious coffee lovers, offering a perfectly curated menu of espresso-based drinks. Whether you're looking for a strong and bold espresso, a smooth flat white, or a delicate macchiato, every cup is expertly crafted. The stylish setting and knowledgeable baristas make this a standout spot in Durham."
+  },
+  {
+    "id": "21",
+    "name": "The Green Bean Cafe",
+    "location": "York",
+    "coffeetypes": "Latte, Cappuccino, Oat Milk Flat White",
+    "reviews": "4.2/5",
+    "comments": "The Green Bean Cafe is a fantastic spot for those looking for great coffee with vegan-friendly options. Their oat milk flat white is a popular choice, offering a creamy and smooth texture with a delicious coffee kick. The welcoming atmosphere and friendly service make it a great place to relax and enjoy a well-crafted cup of coffee."
+  },
+  {
+    "id": "22",
+    "name": "Tea by the Lock",
+    "location": "Naburn Lock, York",
+    "coffeetypes": "Vegan Coffees",
+    "reviews": "4/5",
+    "comments": "Tea by the Lock is a charming cafe located by the picturesque Naburn Lock, offering a peaceful setting to enjoy a cup of coffee or tea. The owners are incredibly friendly, making every visitor feel welcome. With a selection of vegan-friendly coffees, this spot is perfect for those looking for a scenic and relaxing coffee break."
+  },
+  {
+    "id": "23",
+    "name": "York Marina",
+    "location": "Naburn, York",
+    "coffeetypes": "All Coffees",
+    "reviews": "3/5",
+    "comments": "York Marina offers a unique riverside setting where guests can enjoy a variety of coffee drinks while taking in the tranquil view. The location makes it a wonderful spot to relax and unwind, especially on a sunny day. Whether you're stopping by for a morning coffee or an afternoon break, the beautiful surroundings enhance the experience."
+  },
+  {
+    "id": "24",
+    "name": "Pret a Manger",
+    "location": "Central York",
+    "coffeetypes": "Cold Drinks",
+    "reviews": "4/5",
+    "comments": "Pret a Manger is a well-known chain that consistently delivers great coffee and fresh, healthy food options. The friendly staff and quick service make it a convenient spot for grabbing a drink on the go. Whether you're in the mood for an iced coffee or a refreshing cold drink, Pret has plenty of choices."
+  },
+  {
+    "id": "25",
+    "name": "Costa",
+    "location": "Selby, York",
+    "coffeetypes": [
+      "All types"
+    ],
+    "reviews": "4",
+    "comments": "Really friendly staff and nice coffee."
+  },
+  {
+    "id": "26",
+    "name": "DAD",
+    "location": "Selby, York",
+    "coffeetypes": [
+      "All types"
+    ],
+    "reviews": "4",
+    "comments": "Nice Cafe."
+  },
+  {
+    "id": "27",
+    "name": "Pig and Pastry",
+    "location": "Bishopthorpe Road, York",
+    "coffeetypes": [
+      "All types and food"
+    ],
+    "reviews": "5",
+    "comments": "Really friendly staff and brilliant food & drink."
+  },
+  {
+    "id": "28",
+    "name": "Alice's Cafe",
+    "location": "Jamaica",
+    "coffeetypes": [
+      "Iced Coffees"
+    ],
+    "reviews": "5",
+    "comments": "Great Coffees!"
+  },
+  {
+    "id": "29",
+    "name": "Bertie's place",
+    "location": "Naburn",
+    "coffeetypes": "All types",
+    "reviews": "2",
+    "comments": "Great view."
+  },
+  {
+    "id": "30",
+    "name": "Pret a Manger",
+    "location": "York",
+    "coffeetypes": "All types",
+    "reviews": "3",
+    "comments": "Great place."
+  },
+  {
+    "id": "31",
+    "name": "Freddie's",
+    "location": "York",
+    "coffeetypes": "All types",
+    "reviews": "3",
+    "comments": "Comment"
+  },
+  {
+    "id": "32",
+    "name": "Freddie's",
+    "location": "York",
+    "coffeetypes": "All types",
+    "reviews": "3",
+    "comments": "great place."
+  },
+  {
+    "id": "33",
+    "name": "Bertie's place",
+    "location": "York",
+    "coffeetypes": "All types",
+    "reviews": "3",
+    "comments": "great place"
+  },
+  {
+    "id": "34",
+    "name": "Starbucks",
+    "location": "w",
+    "coffeetypes": "2",
+    "reviews": "3",
+    "comments": "2"
+  },
+  {
+    "id": "35",
+    "name": "Cafe 3",
+    "location": "york",
+    "coffeetypes": "all",
+    "reviews": "2",
+    "comments": "ww"
+  },
+  {
+    "id": "36",
+    "name": "example",
+    "location": "york",
+    "coffeetypes": "all",
+    "reviews": "2",
+    "comments": "hello"
+  },
+  {
+    "id": "37",
+    "name": "example202",
+    "location": "york",
+    "coffeetypes": "all",
+    "reviews": "1",
+    "comments": "hello"
+  },
+  {
+    "id": "38",
+    "name": "example03",
+    "location": "york",
+    "coffeetypes": "all",
+    "reviews": "2",
+    "comments": "hello"
+  }
+]

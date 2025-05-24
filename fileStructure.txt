@@ -1,0 +1,15 @@
+file structure
+
+main-file (doesn't need name)
+
+-feedback.json	
+-package.json
+-package-lock.json
+-server.js
+
+
+(folder within main-file called 'public' that contains
+-cafes.json
+-index.html
+-script.js
+-style.css)
